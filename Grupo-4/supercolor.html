@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <title>Polaroid Instant Snap</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- Bootstrap CSS -->
+  <style>
+     /* @font-face {
+      font-family:'Times New Roman', Times, serif;
+      }*/
+      html, body{
+      padding: 0;
+      margin: 0;
+      }
+      html{
+      height: 100%;
+      }
+      body{
+      min-height: 100%;
+      }
+
+      .header {
+      padding: 2em 5em 0;
+      }
+      
+      h1{
+      text-align: center;
+      font-size: 25pt;
+          -webkit-text-fill-color:rgb(41, 41, 41);
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: 1px;
+      padding: 10px;
+      }
+      .banner_info{
+          margin:0 auto;
+          text-align:center;
+
+      }
+      .top-nav {
+          position:center;
+          width:100%;    
+          background:rgba(0, 0, 0, 0.8);
+          margin-top: 0px;
+          margin-bottom: 0px;
+          text-align:center;
+
+      
+      }
+      .navbar-default {
+          border: none;
+          background: none;
+          margin: 0 auto;
+          padding:0px;
+          min-height: 0;
+          text-align: center;
+  
+      }
+      ul.nav {
+          width:100%;            
+          list-style:none;
+          text-align:center;
+          display: inline-block;
+          list-style-type: none;
+      }
+      .nav li { 
+          display:inline-block;
+          width:33%;
+          margin:0;
+          padding:0;
+      }
+
+      .navbut{
+      color:white !important; 
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:15px;
+      letter-spacing: 2px;
+}
+
+nav li {
+  float: left;
+}
+nav{
+  display: inline-block;
+}
+
+
+
+
+.header {
+  text-align: center;
+  padding: 0px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+img {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;  
+    }
+
+    img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+
+
+/* Create 3 equal columns that sit next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 30px;
+  -ms-grid-column-align:center;
+}
+@font-face {
+    font-family: "Retro Computer";
+    src:
+    local("fonts/retro_computer_personal_use.tff"),
+    }
+
+    #oop {
+    font-family: "Retro Computer", sans-serif;
+    }
+
+</style>
+<body>
+
+    <!-- banner -->
+   <div class="banner_top">
+        <div class="center-container inner-container">
+            <div class="header">
+                <div class="logo">
+                    <h1><font face="Retro Computer" color="black" size="6">
+                    Supercolor 635 CL
+                    </font></h1>
+                <div class="top-nav">
+                    <nav class="navbar navbar-default">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a class="navbut" href="firstpage.html">Home</a></li>
+                                <li><a class="navbut" href="snap.html">Instant Snap</a></li>
+                                <li><a class="navbut navbut-active" href="instax.html">Instax Mini 9</a></li>
+                                <li><a class="navbut navbut-active" href="sx70.html">Polaroid SX-70</a></li>
+                                <li><a class="navbut navbut-active" href="instax8.html">Instax Mini 8</a></li>
+                                <li><a class="navbut navbut-active" href="square.html">Instax Square</a></li>
+                            </ul>
+    
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="main">
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="super1.jpg" style="width:100%">
+    <p></p>
+    <p></p>
+    <img src="super4.jpg" style="width:100%">
+    <p></p>
+    <p></p>
+    <img src="super7.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="super2.jpg" style="width:100%">
+    <p></p>
+    <p></p>
+    <img src="super5.jpg" style="width:100%">
+    <p></p>
+    <p></p>
+    <img src="super8.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="super3.jpg" style="width:100%;">
+    <p></p>
+    <p></p>
+    <img src="super6.jpg" style="width:100%">
+    <p></p>
+    <p></p>
+    <img src="super9.jpg" style="width:100%">
+  </div>
+
+</div>
+   
+</body>
+</html>
